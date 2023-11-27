@@ -4,7 +4,6 @@
   "version": "0.0.2",
   "publisher": "ghaschel",
   "description": "vscode-angular-scss syntax highlighting ported to angular inline templates",
-  "main": "index.js",
   "scripts": {
     "clean": "rimraf syntaxes/*",
     "vscode:prepublish": "npm run clean && npm run compile",
@@ -12,7 +11,7 @@
     "watch": "npm run compile && gulp watch",
     "compile:grammar:dev": "gulp compile:grammar && gulp copy",
     "compile:grammar:prod": "gulp compile:grammar",
-    "publish": "standard-version && git push --follow-tags origin master && vsce publish",
+    "publish": "standard-version && git push --follow-tags origin main && vsce publish",
     "postinstall": "node -e \"process.env.NODE_ENV != 'production' && process.exit(1)\" || npm run postinstall:dev",
     "postinstall:dev": "node scripts/postinstall.js",
     "prepare": "node -e \"process.env.NODE_ENV != 'production' && process.exit(1)\" || npm run prepare:dev",
