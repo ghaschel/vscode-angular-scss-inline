@@ -1,0 +1,17 @@
+.github/**
+.husky/**
+.vscode/**
+node_modules/**
+scripts/**
+src/**
+.history/**
+test/**
+.gikeep
+.editorconfig
+.gitattributes
+.gitignore
+.hushlogin
+.prettierrc.json
+commitlint.config.js
+gulpfile.js
+package-lock.json

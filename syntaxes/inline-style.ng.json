@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "scopeName": "inline-style.ng",
+  "injectionSelector": "L:meta.decorator.ts - (comment, text.html, text.html.derivative)",
+  "patterns": [
+    {
+      "include": "#inline-style"
+    }
+  ],
+  "repository": {
+    "inline-style": {
+      "begin": "(style)\\s*(:)",
+      "beginCaptures": {
+        "1": {
+          "name": "meta.object-literal.key.ts"
+        },
+        "2": {
+          "name": "meta.object-literal.key.ts punctuation.separator.key-value.ts"
+        }
+      },
+      "end": "(?=,|})",
+      "patterns": [
+        {
+          "include": "#ng.inline-style"
+        }
+      ]
+    },
+    "ng.inline-style": {
+      "begin": "\\G\\s*([`|'|\"])",
+      "beginCaptures": {
+        "1": {
+          "name": "string"
+        }
+      },
+      "end": "\\1",
+      "endCaptures": {
+        "0": {
+          "name": "string"
+        }
+      },
+      "contentName": "punctuation.separator.comma.ts html-template.ng",
+      "patterns": [
+        {
+          "include": "source.css.scss"
+        }
+      ]
+    }
+  }
+}
