@@ -1,7 +1,7 @@
 {
   "name": "vscode-angular-scss-inline",
   "displayName": "vscode-angular-scss-inline",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "ghaschel",
   "description": "vscode-angular-scss syntax highlighting ported to angular inline templates",
   "main": "index.js",
