@@ -1,10 +1,14 @@
 # vscode-angular-scss-inline
 
+[![SemVer](https://img.shields.io/github/tag/ghaschel/vscode-angular-scss-inline.svg)](https://img.shields.io/github/tag/ghaschel/vscode-angular-scss-inline.svg)
 [![GitHub issues](https://img.shields.io/github/issues/ghaschel/vscode-angular-scss-inline.svg)](https://github.com/ghaschel/vscode-angular-scss-inline/issues)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ghaschel/vscode-angular-scss-inline/blob/master/LICENSE)
 [![Build status](https://travis-ci.org/ghaschel/vscode-angular-scss-inline.svg?branch=master)](https://travis-ci.org/ghaschel/vscode-angular-scss-inline.svg?branch=master)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs-short/ghaschel.vscode-angular-scss-inline.svg?style=flat&color=blue)](https://marketplace.visualstudio.com/items?itemName=ghaschel.vscode-angular-scss-inline)
-[![Version](https://vsmarketplacebadge.apphb.com/version-short/ghaschel.vscode-angular-scss-inline.svg?style=flat&color=blue)](https://marketplace.visualstudio.com/items?itemName=ghaschel.vscode-angular-scss-inline)
+[![Downloads](https://vsmarketplacebadges.dev/downloads-short/ghaschel.vscode-angular-scss-inline.png)](https://marketplace.visualstudio.com/items?itemName=ghaschel.vscode-angular-scss-inline)
+[![Installs](https://vsmarketplacebadges.dev/downloads-short/ghaschel.vscode-angular-scss-inline.png)](https://marketplace.visualstudio.com/items?itemName=ghaschel.vscode-angular-scss-inline)
+[![Version](https://vsmarketplacebadges.dev/downloads-short/ghaschel.vscode-angular-scss-inline.png)](https://marketplace.visualstudio.com/items?itemName=ghaschel.vscode-angular-scss-inline)
+[![Known Vulnerabilities](https://snyk.io/test/github/ghaschel/vscode-angular-scss-inline/badge.svg)](https://snyk.io/test/github/ghaschel/vscode-angular-scss-inline)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 <div align="center">
     <img src="assets/angular-inline.png" title="vscode-angular-scss-inline" alt="Logo" />
