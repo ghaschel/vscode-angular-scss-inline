@@ -1,6 +1,6 @@
 apiVersion: automation.cloudbees.io/v1alpha1
 kind: workflow
-name: My automation
+name: build
 on:
   push:
     branches:
@@ -8,8 +8,8 @@ on:
 jobs:
   build:
     steps:
-      - uses: docker://golang:1.20.3-alpine3.17
-        name: Say hello
+      - uses: docker://node:21-alpine3.17
+        name: Build
         kind: build
         shell: sh
         run: npm run compile
