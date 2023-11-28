@@ -3,7 +3,7 @@
 [![SemVer](https://img.shields.io/github/tag/ghaschel/vscode-angular-scss-inline.svg)](https://img.shields.io/github/tag/ghaschel/vscode-angular-scss-inline.svg)
 [![GitHub issues](https://img.shields.io/github/issues/ghaschel/vscode-angular-scss-inline.svg)](https://github.com/ghaschel/vscode-angular-scss-inline/issues)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ghaschel/vscode-angular-scss-inline/blob/master/LICENSE)
-[![Build status](https://travis-ci.org/ghaschel/vscode-angular-scss-inline.svg?branch=master)](https://travis-ci.org/ghaschel/vscode-angular-scss-inline.svg?branch=master)
+[![NodeJS with Gulp](https://github.com/ghaschel/vscode-angular-scss-inline/actions/workflows/npm-gulp.yml/badge.svg?event=push)](https://github.com/ghaschel/vscode-angular-scss-inline/actions/workflows/npm-gulp.yml)
 [![Downloads](https://vsmarketplacebadges.dev/downloads-short/ghaschel.vscode-angular-scss-inline.png)](https://marketplace.visualstudio.com/items?itemName=ghaschel.vscode-angular-scss-inline)
 [![Installs](https://vsmarketplacebadges.dev/downloads-short/ghaschel.vscode-angular-scss-inline.png)](https://marketplace.visualstudio.com/items?itemName=ghaschel.vscode-angular-scss-inline)
 [![Version](https://vsmarketplacebadges.dev/downloads-short/ghaschel.vscode-angular-scss-inline.png)](https://marketplace.visualstudio.com/items?itemName=ghaschel.vscode-angular-scss-inline)
